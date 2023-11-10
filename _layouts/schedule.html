@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<header class="post-header">
+    <h1 class="post-title">Schedule</h1>
+</header>
+
+{{ content }}
+
+<div class="home" style="font-size: 1em;">
+    <ul class="table" style="margin-left: 0;">
+        <li class="table-header">
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-2"></div>
+            <div class="col col-3"></div>
+        </li>
+
+        {% for event in site.data.schedule.schedule %}
+        <li class="table-row table-row-{{ event.type}}">
+            <div class="col col-1" data-label="Event">
+                # {{ event.number }}
+                {{ event.date | date: site.dateformat }}
+                <!-- {{ event.date | date: "%A" }}  -->
+            </div>
+            <div class="col col-1" data-label="Event">
+                {{ event.kind }}<br>
+            </div>
+            <div class="col col-2" data-label="Description">
+                <strong>{{ event.theme }}</strong><br>
+                {{ event.title }}
+            </div>
+            <div class="col col-3 markdown-content">
+            
+                <!-- Main readings -->
+                {% if event.main %}
+                <span >Main readings:</span>
+                <ul >
+                {% for item in event.main %}
+                    <li><a title="" href="{{ item.url }}">{{ item.title}}</a><br></li>
+                {% endfor %}
+                </ul>
+                {% endif %}
+            
+                <!-- Secondary readings -->
+                {% if event.suggested %}
+                <span >Suggested readings:</span>
+                <ul >
+                {% for item in event.suggested %}
+                    <li><a title="" href="{{ item.url }}">{{ item.title}}</a><br>
+                    </li>
+                {% endfor %}
+                </ul>
+                {% endif %}
+
+            </div>
+        </li>
+        {% endfor %}
+
+    </ul>
+</div>

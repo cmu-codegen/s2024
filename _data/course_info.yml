@@ -1,0 +1,54 @@
+# Top-level description
+course_name: "Neural code generation"
+course_summary: "This course is on modeling and synthesizing programs using deep-learning methods, with an emphasis on neural language models.
+The key goals of this course are to (1) teach students the foundations of constructing a modern neural code generation system based on neural language models, including formal-method aware fine-tuning, inference, and evaluation methods, and (2) explore new research in neural code generation, including improving interaction with human programmers, model reliability and adaptability, and applications to engineering, reasoning, and formal verification."
+
+# Course description
+course_description: "The course covers algorithmic foundations, practical aspects, and open research frontiers in neural code generation. 
+The course is separated into two high-level parts: (1) algorithmic and practical aspects of neural language models for code generation, (2) open research frontiers in neural code generation. Emphasis is placed on the unique aspects of modeling and generating code compared to other sequential data (e.g., text alone)."
+course_disclaimer: "<em>This course is intended for 2nd year (or higher) graduate students. Familiarity with neural language models is recommended.</em>"
+
+# Logistics
+course_semester: "Spring 2024"
+course_dept: LTI
+course_num: 11891
+classes: TR 3:30pm - 4:50pm
+room: WEH 4625
+office_hours: See Piazza
+schoolname: "Carnegie Mellon University"
+schoolurl: "https://www.cmu.edu/"
+
+# Instructors
+instructors:
+  - name: Sean Welleck
+    profile_pic: /_images/site/welleck.png
+    webpage: https://wellecks.com
+  - name: Daniel Fried
+    profile_pic: /_images/site/daniel.jpeg
+    webpage: https://dpfried.github.io
+
+teaching_assistants:
+  - name: TA 1
+    profile_pic: /_images/site/ta1.jpg
+    webpage: 
+
+  - name: TA 2
+    profile_pic: /_images/pp/ta2.jpg
+    webpage: 
+
+# Policies
+policies:
+  - If you are assigned to lead a discussion and you are unable to, it is your responsibility to find a replacement. 
+    The procedure is to make a post on Piazza stating who the replacement will be, with the post made no later than 24 hours prior to the associated course session.
+    If a replacement is not made according to this procedure, you will receive a score of zero for the discussion.
+  - For a discussion that you are not leading, you are given 4 'late credits'. 
+    A late credit extends the deadline for the discussion's assignment by 24 hours.
+    Once you have used all 4 late credits, all subsequent discussion assignments will receive a score of zero if they are submitted after the start of the associate course session.
+  - For the final project, there are no credits or extensions available.
+  
+# Links
+links:
+  - name: Piazza
+    url: https://piazza.com/
+  - name: Canvas
+    url: https://canvas.cmu.edu/

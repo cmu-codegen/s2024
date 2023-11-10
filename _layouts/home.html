@@ -1,0 +1,209 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1 style="font-size: 2.5em">{{ site.data.course_info.course_name }} <span style="font-size: 0.8em;color: #0006;">/ {{ site.data.course_info.course_semester }} </span></h1>
+
+    <br />
+
+    <p style="font-size: 16px">{{ site.data.course_info.course_summary }}</p>
+    
+    {{ content }}
+
+    <br>
+    <div class="container sec">
+        <div style="width:100%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>Instructors</h2>
+                {% for ins in site.data.course_info.instructors %}
+                <div class="image--cover-container">
+                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    {% else %}
+                    <p>{{ins.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <br/>
+
+        <div style="width:100%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>Teaching Assistants</h2>
+                {% for ta in site.data.course_info.teaching_assistants %}
+                <div class="image--cover-container">
+                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ta.webpage %}
+                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                    {% else %}
+                    <p>{{ta.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="container sec">
+        <h2>Logistics</h2>
+        <ul>
+            <li>Class times:  {{ site.data.course_info.classes }} </li>
+            <li>Room:  {{ site.data.course_info.room }} </li>
+            <li>Course identifier:  {{ site.data.course_info.course_dept }} {{ site.data.course_info.course_num }} </li>
+            <li>Office hours:  {{ site.data.course_info.office_hours }} </li>
+        </ul>
+    </div>
+<!-- </div>
+
+<br/>
+<div> -->
+<!-- <br/> -->
+<div class="container sec">
+    <h1>Course description</h1>
+    <p>
+        {{site.data.course_info.course_description}}
+    </p>
+    <p>
+        {{site.data.course_info.course_disclaimer}}
+    </p>
+</div>
+
+<div class="container sec">
+    <h2>Class format</h2>
+    Each class is either an instructor-led lecture or a student-led discussion about a (set of) research paper(s).
+    <br/><br>
+    <h3>Student-led discussions</h3>
+    In a student-led discussion, a group of 3 students presents a (set of) papers. Each student has an assigned "role":
+    <ul>
+        <li><strong>Author</strong>: Act as if you are an author of the paper. Describe the paper's motivation, problem definition, method and experimental findings. 
+            <!-- <br><em>Time budget: 20 minutes</em></li> -->
+        <li><strong>Reviewer</strong>: Act as if you are a reviewer of the paper. Be critical of the work, though not necessarily negative. 
+            <!-- <br><em>Time budget: 15 minutes</em></li> -->
+        <li><strong>Visionary</strong>: Propose a follow-up research project or application. 
+            <!-- <br><em>Time budget: 15 minutes</em></li> -->
+        <!-- <li><em><strong>Empiricist (bonus)</strong></em>: work together to implement something related to the paper. This could be reproducing an experiment with the authors' code, re-implementing a subset of the paper, or a new analysis (post on Piazza if you are unsure). Present your findings during the discussion and share the associated code. -->
+        <!-- <br><em>Time budget: 15 minutes</em> -->
+        <!-- </li> -->
+    </ul>
+    We will have a shared pool of slides (hosted on Google presentations, which will be shared a week before. 
+    Each student is encouraged to title their slides with "[role]: [student name]" so that the slides are easily identified. 
+    <!-- If you choose to make slides, you're not expected to prepare a full presentation; slides are aimed at structuring discussion. -->
+    <br><br>
+    <h4>For non-presenting students:</h4>
+    <ul>
+        <li><em>Summary and questions</em>: prepare a short summary of one of the class's papers, and at least one discussion question related to the paper. 
+        The summary should briefly summarize the motivation, research contributions, method, and at least one key experimental result from the paper (e.g., 1-3 sentences for each of these items).
+        </li>
+        <li><em>Discussion</em>: non-presenting students are expected to participate in the discussions. </li>
+    </ul>
+    <h3>Instructor-led lectures</h3>
+    <ul>
+        <li><em>Reading</em>: we will post materials that we recommend reading prior to the course.</li>
+        <li><em>Attendance</em>: students are expected to attend lectures. </li>
+    </ul>
+</div>
+
+<div class="container sec" id="schedule">
+    <h1>Schedule</h1>
+<ul class="table" style="margin-left: 0;">
+    <li class="table-header">
+        <div class="col col-1">Class</div>
+        <div class="col col-1">Type</div>
+        <div class="col col-2">Topic</div>
+        <div class="col col-3">Resources</div>
+    </li>
+
+    {% for event in site.data.schedule.schedule %}
+    <li class="table-row table-row-{{ event.type}}">
+        <div class="col col-1" data-label="Event">
+            # {{ event.number }}
+            {{ event.date | date: site.dateformat }}
+            <!-- {{ event.date | date: "%A" }}  -->
+        </div>
+        <div class="col col-1" data-label="Event">
+            {{ event.kind }}<br>
+        </div>
+        <div class="col col-2" data-label="Description">
+            <strong>{{ event.theme }}</strong><br>
+            {{ event.title }}
+        </div>
+        <div class="col col-3 markdown-content">
+        
+            <!-- Main readings -->
+            {% if event.main %}
+            <span >Main readings:</span>
+            <ul >
+            {% for item in event.main %}
+                <li><a title="" href="{{ item.url }}">{{ item.title}}</a><br></li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+        
+            <!-- Secondary readings -->
+            {% if event.suggested %}
+            <span >Suggested readings:</span>
+            <ul >
+            {% for item in event.suggested %}
+                <li><a title="" href="{{ item.url }}">{{ item.title}}</a><br>
+                </li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+
+        </div>
+    </li>
+    {% endfor %}
+
+</ul>
+</div>
+
+
+
+
+
+<div class="container sec" id="project">
+    <h2>Course project</h2>
+    The course can either be taken without a course project for 6 credits, or with a course project for 12 credits.
+    <br><br>
+    The course project simulates a research project on a topic related to the course. 
+    This includes (but is not limited to) analysis of a method or paper, replicating a paper's analysis or methods, developing a related method,
+    evaluating a method in a new setting, or other forms of investigation. 
+
+    Project groups are encouraged to propose their own ideas. The instructors will additionally provide a list of ideas that groups can choose from.
+    <ul>
+        <li><em>Project teams:</em> projects are highly recommended to have between 2-4 members. A solo project is possible subject to approval by the instructors.</li>
+        <li><em>Mid-semester review:</em> project teams will meet with the instructors roughly half way through the semester. 
+            Each team will prepare a presentation about the current project status. Instructors will discuss next steps with the team and provide feedback.
+        <li><em>Final review and writeup:</em> project teams will present their project to the class at the end of the semester.
+            Additionally, each team will prepare a writeup in the style of a workshop paper. The paper describes the project, its current results, challenges faced, and the project's future outlook. </li>
+    </ul>
+
+</div>
+
+
+<div class="container sec">
+    <h2>Resources</h2>
+        <ul>
+        {% for item in site.data.course_info.links%}
+            <li><a href={{item.url}}>{{item.name}}</a></li>
+        {% endfor %} 
+        </ul>
+</div>
+
+
+
+<div class="container sec">
+    <h2>Grading</h2>
+
+    <h2>Late policies</h2>
+        <ul>
+        {% for policy in site.data.course_info.policies %}
+            <li>{{policy }} </li>
+        {% endfor %} 
+        </ul>
+</div>
+</div>
