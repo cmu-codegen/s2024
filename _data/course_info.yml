@@ -28,13 +28,13 @@ instructors:
     webpage: https://dpfried.github.io
 
 teaching_assistants:
-  - name: TA 1
-    profile_pic: /_images/site/ta1.jpg
-    webpage: 
+  - name: Nikitha Rao
+    profile_pic: /_images/site/nikitha_rao.png
+    webpage: https://raonikitha.github.io/
+  - name: Zhiruo (Zora) Wang
+    profile_pic: /_images/site/zhiruo_zora_wang.jpeg
+    webpage: https://zorazrw.github.io/ 
 
-  - name: TA 2
-    profile_pic: /_images/pp/ta2.jpg
-    webpage: 
 
 # Policies
 policies:

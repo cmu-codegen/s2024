@@ -2,7 +2,7 @@ schedule:
   - number: 1
     title: Course overview
     theme: Overview
-    kind: Lecture
+    kind: Lecture (Daniel, Sean)
     date: 2024-01-16T15:30
     links: 
       - url: /static_files/1.pdf
@@ -11,33 +11,17 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2108.07732
         title: Evaluating Large Language Models Trained on Code
-# ---
-  - number: 2
-    title: Case studies
-    theme: Overview
-    kind: Discussion
-    date: 2024-01-18T15:30
-    links: 
-      - url: /static_files/2.pdf
-        name: slides
-
-    main:
-      # - url: https://arxiv.org/abs/2203.13474
-        # title: "CodeGen: An Open Large Language Model for Code"
-      - url: https://arxiv.org/abs/2308.12950
-        title: "Code Llama: Open Foundation Models for Code"
-
     # secondary:
     #   - url: https://arxiv.org/abs/2108.07732
     #     title: Program Synthesis with Large Language Models
     #   - url: https://arxiv.org/abs/2301.03988
     #     title: "SantaCoder: don't reach for the stars!"
   
-  - number: 3
-    title: "Foundations: scaling laws, learning pipeline"
+  - number: 2
+    title: "Foundations: maximum likelihood, scaling laws"
     theme: Learning 
-    kind: Lecture
-    date: 2024-01-23T15:30
+    kind: Lecture (Sean)
+    date: 2024-01-18T15:30
     links:
       - url: /static_files/3.pdf
         name: slides
@@ -47,16 +31,16 @@ schedule:
         title: "Scaling Laws for Neural Language Models"
       - url: https://arxiv.org/abs/2203.15556
         title: "Training Compute-Optimal Large Language Models"
-      # - url: https://arxiv.org/abs/2305.16264
-      #   title: "Scaling Data-Constrained Language Models"
-      - url: https://arxiv.org/abs/2203.02155 
-        title: "Training language models to follow instructions with human feedback"
+      - url: https://arxiv.org/abs/2305.16264
+        title: "Scaling Data-Constrained Language Models"
+      - url: https://arxiv.org/abs/2305.02309
+        title: "Lessons for Training LLMs on Programming and Natural Languages"
 
-  - number: 4
+  - number: 3
     title: "Scaling laws for code"
     theme: Learning 
     kind: Discussion
-    date: 2024-01-25T15:30
+    date: 2024-01-23T15:30
     links:
       - url: /static_files/3.pdf
         name: slides
@@ -76,9 +60,9 @@ schedule:
 
   - number: 4
     title: Code pretraining objectives
-    theme: Learning 
-    kind: Discussion
-    date: 2024-01-30T15:30
+    theme: Learning
+    kind: Lecture (Daniel)
+    date: 2024-01-25T15:30
     links:
       - url: /static_files/4.pdf
         name: slides
@@ -87,8 +71,8 @@ schedule:
         title: "InCoder: A Generative Model for Code Infilling and Synthesis"
       - url: https://arxiv.org/abs/2207.14255
         title: "Efficient Training of Language Models to Fill in the Middle"
-      # - url: https://arxiv.org/abs/2102.01293 
-        # title: "(Scaling laws) Scaling Laws for Transfer"
+      - url: https://arxiv.org/abs/2305.07922
+        title: "CodeT5+: Open Code Large Language Models for Code Understanding and Generation"
       # - url: https://arxiv.org/abs/2308.07124
         # title: "(Instruction tuning) OctoPack: Instruction Tuning Code Large Language Models"
 
@@ -96,18 +80,20 @@ schedule:
     title: Finetuning for code
     theme: Learning 
     kind: Discussion
-    date: 2024-02-01T15:30
+    date: 2024-01-30T15:30
     links:
       - url: /static_files/5.pdf
         name: slides
     main:
       - url: https://arxiv.org/abs/2308.07124
         title: "OctoPack: Instruction Tuning Code Large Language Models"
+      - url: https://arxiv.org/abs/2308.12950
+        title: "Code Llama: Open Foundation Models for Code"
   - number: 6
     title: Learning from code-related feedback
-    theme: Learning 
-    kind: Discussion
-    date: 2024-02-06T15:30
+    theme: Learning
+    kind: Lecture (Sean)
+    date: 2024-02-01T15:30
     links:
       - url: /static_files/6.pdf
         name: slides 
@@ -116,46 +102,44 @@ schedule:
         title: "Execution-based Code Generation using Deep Reinforcement Learning"
       - url: "https://arxiv.org/abs/2303.16749"
         title: "Improving Code Generation by Training with Natural Language Feedback"
-  - number: 6
-    title: Foundations
+  - number: 7
+    title: Inference-time algorithms for code
     theme: Inference 
-    kind: Lecture
-    date: 2024-02-08T15:30
+    kind: Lecture (Daniel)
+    date: 2024-02-06T15:30
     links:
       - url: /static_files/7.pdf
         name: slides
     suggested:
-      - url: https://aclanthology.org/N04-1022.pdf
-        title: "Minimum Bayes Risk Decoding for Statistical Machine Translation"
-
-      - url: https://ojs.aaai.org/index.php/AAAI/article/view/7974
-        title: "Training Verifiers to Solve Math Word Problems"
-
+      # - url: https://ojs.aaai.org/index.php/AAAI/article/view/7974
+        # title: "Training Verifiers to Solve Math Word Problems"
       - url: https://arxiv.org/abs/2203.07814
         title: "AlphaCode"
+      - url: https://arxiv.org/abs/2204.11454
+        title: "Natural Language to Code Translation with Execution"
+      - url: https://arxiv.org/abs/2207.10397
+        title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
 
-  - number: 7
+  - number: 8
     title: Inference-time algorithms for code 
     theme: Inference
     kind: Discussion
-    date: 2024-02-13T15:30
+    date: 2024-02-08T15:30
     links:
       - url: /static_files/8.pdf
         name: slides
 
     main:
-      - url: https://arxiv.org/abs/2204.11454
-        title: "Natural Language to Code Translation with Execution"
-      - url: https://arxiv.org/abs/2207.10397
-        title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
+      - url: https://arxiv.org/abs/2304.05128
+        title: "Teaching Large Language Models to Self-Debug"
       - url: https://arxiv.org/abs/2207.10397
         title: "CodeT: Code Generation with Generated Tests"
 
-  - number: 8
+  - number: 9
     title: Data
     theme: Data
-    kind: Lecture
-    date: 2024-02-15T15:30
+    kind: Lecture (Daniel, Sean)
+    date: 2024-02-13T15:30
     links:
       - url: /static_files/9.pdf
         name: slides 
@@ -164,11 +148,11 @@ schedule:
         title: "The Stack: 3 TB of permissively licensed source code"
       - url: https://arxiv.org/abs/2310.10631
         title: "Llemma: An Open Language Model For Mathematics"
-  - number: 9
+  - number: 10
     title: Evaluation metrics and benchmarks
     theme: Evaluation
-    kind: Lecture
-    date: 2024-02-20T15:30
+    kind: Lecture  (Daniel)
+    date: 2024-02-15T15:30
     links:
       - url: /static_files/10.pdf
         name: slides 
@@ -179,11 +163,11 @@ schedule:
         title: "Measuring Coding Challenge Competence With APPS"
       - url: https://arxiv.org/abs/2211.11501
         title: "DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation"
-  - number: 10
+  - number: 11
     title: New frontiers in benchmarking
     theme: Evaluation
     kind: Discussion
-    date: 2024-02-22T15:30
+    date: 2024-02-20T15:30
     links:
       - url: /static_files/11.pdf
         name: slides
@@ -194,7 +178,7 @@ schedule:
     title: Mid-semester project hours
     theme: Course project
     kind: Course project
-    date: 2024-02-27T15:30
+    date: 2024-02-22T15:30
     links:
       - url: /static_files/11.pdf
         name: slides
@@ -205,13 +189,24 @@ schedule:
     title: Mid-semester project hours
     theme: Course project
     kind: Course project
-    date: 2024-02-29T15:30
+    date: 2024-02-27T15:30
     links:
       - url: /static_files/11.pdf
         name: slides
     main:
       - url: https://arxiv.org
         title: "N/A"
+  - number: 14
+    title: "Speaker (TBD): ML for Bug Detection and Program Repair"
+    theme: Guest speaker
+    kind: Guest speaker
+    date: 2024-02-29T15:30
+    links:
+      - url: /static_files/12.pdf
+        name: slides 
+    main:
+      - url: https://arxiv.org
+        title: "TBD"
   - number: 14
     title: Spring break
     theme: Spring break
@@ -234,22 +229,11 @@ schedule:
     main:
       - url: https://arxiv.org
         title: "N/A"
-  - number: 16
-    title: "Claire Le Goues: ML for Bug Detection and Program Repair"
-    theme: Guest speaker
-    kind: Guest speaker
-    date: 2024-03-12T15:30
-    links:
-      - url: /static_files/12.pdf
-        name: slides 
-    main:
-      - url: https://arxiv.org
-        title: "TBD"
   - number: 17
     title: Pragmatic aspects of code generation
     theme: Human interaction
-    kind: Lecture
-    date: 2024-03-14T15:30
+    kind: Lecture (Daniel)
+    date: 2024-03-12T15:30
     links:
       - url: /static_files/13.pdf
         name: slides
@@ -262,7 +246,7 @@ schedule:
     title: What is it like to program with AI?
     theme: Human interaction
     kind: Discussion
-    date: 2024-03-19T15:30
+    date: 2024-03-14T15:30
     links:
       - url: /static_files/14.pdf
         name: slides 
@@ -275,7 +259,7 @@ schedule:
     title: Can we rely on the outputs?
     theme: Human interaction
     kind: Discussion
-    date: 2024-03-21T15:30
+    date: 2024-03-19T15:30
     links:
       - url: /static_files/14.pdf
         name: slides 
@@ -285,10 +269,10 @@ schedule:
       - url: https://arxiv.org/abs/2306.04556
         title: "StudentEval: A Benchmark of Student-Written Prompts for Large Language Models of Code, Arxiv 2023"
   - number: 20
-    title: Sherry Wu or Vincent Hellendoorn
+    title: "Speaker (TBD)"
     theme: Human interaction
     kind: Guest speaker
-    date: 2024-03-26T15:30
+    date: 2024-03-21T15:30
     links:
       - url: /static_files/15.pdf
         name: slides 
@@ -298,8 +282,8 @@ schedule:
   - number: 21
     title: Long context and retrieval in code
     theme: Adaptability
-    kind: Lecture
-    date: 2024-03-28T15:30
+    kind: Lecture (Sean)
+    date: 2024-03-26T15:30
     links:
       - url: /static_files/16.pdf
         name: slides
@@ -316,7 +300,7 @@ schedule:
     title: 
     theme: Adaptability
     kind: Discussion
-    date: 2024-04-02T15:30
+    date: 2024-03-28T15:30
     links:
       - url: /static_files/17.pdf
         name: slides 
@@ -327,7 +311,7 @@ schedule:
     title: Code as a tool
     theme: Reasoning with code
     kind: Discussion
-    date: 2024-04-04T15:30
+    date: 2024-04-02T15:30
     links:
       - url: /static_files/18.pdf
         name: slides 
@@ -350,21 +334,32 @@ schedule:
   - number: 24
     title: Introduction to neural theorem proving
     theme: Neural theorem proving
-    kind: Lecture
-    date: 2024-04-09T15:30
+    kind: Lecture (Sean)
+    date: 2024-04-04T15:30
     links:
       - url: /static_files/20.pdf
         name: slides
     suggested:
       - url: https://github.com/wellecks/ntptutorial
         title: "A tutorial on neural theorem proving"
-      # - url: https://arxiv.org/pdf/2009.03393.pdf
-      #   title: "Generative Language Modeling for Automated Theorem Proving"
-      # - url: https://arxiv.org/abs/2210.12283
-      #   title: "Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs"
+      - url: https://arxiv.org/pdf/2009.03393.pdf
+        title: "Generative Language Modeling for Automated Theorem Proving"
+      - url: https://arxiv.org/abs/2210.12283
+        title: "Draft, Sketch, and Prove"
       - url: https://github.com/PatrickMassot/GlimpseOfLean
         title: "A Glimpse of Lean"
   - number: 25
+    title: Iterative improvement
+    theme: Neural theorem proving
+    kind: Discussion
+    date: 2024-04-09T15:30
+    links:
+      - url: /static_files/21.pdf
+        name: slides 
+    main:
+      - url: https://openreview.net/pdf?id=-P7G-8dmSh4
+        title: "Formal Mathematics Statement Curriculum Learning"
+  - number: 26
     title: Spring carnival (No class)
     theme: Spring carnival (No class)
     kind: No class
@@ -375,9 +370,8 @@ schedule:
     main:
       - url: https://arxiv.org
         title: "N/A"
-  
-  - number: 26
-    title: Iterative improvement
+  - number: 27
+    title: Agents, library learning
     theme: Neural theorem proving
     kind: Discussion
     date: 2024-04-16T15:30
@@ -385,28 +379,15 @@ schedule:
       - url: /static_files/21.pdf
         name: slides 
     main:
-      - url: https://openreview.net/pdf?id=-P7G-8dmSh4
-        title: "Formal Mathematics Statement Curriculum Learning"
-  
-  - number: 27
-    title: Autoformalization, skill learning
-    theme: Neural theorem proving
-    kind: Discussion
-    date: 2024-04-18T15:30
-    links:
-      - url: /static_files/21.pdf
-        name: slides 
-    main:
-      - url: https://arxiv.org/abs/2210.12283
-        title: "Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs"
+      - url: https://arxiv.org/abs/2310.04353
+        title: "A Language-Agent Approach to Formal Theorem-Proving"
       - url: https://arxiv.org/abs/2310.00656
         title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
-
   - number: 28
-    title: "Zhangir Azerbayev"
+    title: "Guest speaker (TBD): Scaling language models for formal verification"
     theme: Guest speaker
     kind: Guest speaker
-    date: 2024-04-23T15:30
+    date: 2024-04-18T15:30
     links:
       - url: /static_files/22.pdf
         name: slides 
@@ -418,7 +399,7 @@ schedule:
     title: Final project demos
     theme: Final project demos
     kind: Final project demos
-    date: 2024-05-25T15:30
+    date: 2024-04-23T15:30
     links:
       - url: /static_files/22.pdf
         name: slides 
@@ -430,7 +411,7 @@ schedule:
     title: Final project demos
     theme: Final project demos
     kind: Final project demos
-    date: Finals day
+    date: 2024-04-25T15:30
     links:
       - url: /static_files/22.pdf
         name: slides 
