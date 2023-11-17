@@ -1,6 +1,11 @@
 ### Local development
 
 Tested with `rbenv`, Ruby version `2.7.6`.
+- ```bash
+  rbenv init
+  eval "$(rbenv init - zsh)"
+  rbenv shell 2.7.6
+  ```
 
 - [Install Jekyll](https://jekyllrb.com/).
 
