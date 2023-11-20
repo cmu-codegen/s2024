@@ -1,8 +1,5 @@
-# baseurl: "" 
-# url: "http://localhost" 
-
 baseurl: "/s2024"
-url: "https://cmu-codegen.github.io/`
+url: "https://cmu-codegen.github.io/"
 
 # Build settings
 markdown: kramdown
