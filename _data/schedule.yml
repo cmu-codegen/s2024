@@ -358,7 +358,7 @@ schedule:
       - url: https://arxiv.org/abs/2310.00656
         title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
   - number: 28
-    title: "Guest speaker (TBD): Scaling language models for formal verification"
+    title: "Guest speaker (TBD): Scaling language models for formal code"
     theme: Guest speaker
     kind: Guest speaker
     date: 2024-04-18T15:30
