@@ -256,7 +256,7 @@ schedule:
       - url: https://arxiv.org/abs/2205.12422
         title: "Non-Programmers Can Label Programs Indirectly via Active Examples: A Case Study with Text-to-SQL"
   - number: 20
-    title: "Speaker (TBD)"
+    title: "Guest lecture by <a href=https://www.cs.cmu.edu/~sherryw/>Sherry Wu</a>"
     theme: Human interaction
     kind: Guest speaker
     date: 2024-03-21T15:30
@@ -264,7 +264,7 @@ schedule:
       - url: /static_files/15.pdf
         name: slides 
     main:
-      - url: https://arxiv.org
+      - url: https://www.cs.cmu.edu/~sherryw/
         title: "TBD"
   - number: 21
     title: Long context and retrieval in code
