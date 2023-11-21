@@ -11,11 +11,6 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2108.07732
         title: Evaluating Large Language Models Trained on Code
-    # secondary:
-    #   - url: https://arxiv.org/abs/2108.07732
-    #     title: Program Synthesis with Large Language Models
-    #   - url: https://arxiv.org/abs/2301.03988
-    #     title: "SantaCoder: don't reach for the stars!"
   
   - number: 2
     title: "Foundations: maximum likelihood, scaling laws"
@@ -46,10 +41,6 @@ schedule:
         name: slides
 
     main:
-      # - url: https://arxiv.org/abs/2001.08361
-      #   title: "Scaling Laws for Neural Language Models"
-      # - url: https://arxiv.org/abs/2203.15556
-      #   title: "Training Compute-Optimal Large Language Models"
       - url: https://arxiv.org/abs/2102.01293 
         title: "Scaling Laws for Transfer"
       - url: https://arxiv.org/abs/2102.01293 
@@ -73,8 +64,6 @@ schedule:
         title: "Efficient Training of Language Models to Fill in the Middle"
       - url: https://arxiv.org/abs/2305.07922
         title: "CodeT5+: Open Code Large Language Models for Code Understanding and Generation"
-      # - url: https://arxiv.org/abs/2308.07124
-        # title: "(Instruction tuning) OctoPack: Instruction Tuning Code Large Language Models"
 
   - number: 5
     title: Finetuning for code
@@ -111,8 +100,6 @@ schedule:
       - url: /static_files/7.pdf
         name: slides
     suggested:
-      # - url: https://ojs.aaai.org/index.php/AAAI/article/view/7974
-        # title: "Training Verifiers to Solve Math Word Problems"
       - url: https://arxiv.org/abs/2203.07814
         title: "AlphaCode"
       - url: https://arxiv.org/abs/2204.11454
@@ -294,8 +281,6 @@ schedule:
         title: "DocPrompting: Generating Code by Retrieving the Docs"
       - url: https://arxiv.org/abs/2206.12839
         title: "Repository-Level Prompt Generation for Large Language Models of Code"
-      # - url: https://arxiv.org/abs/2306.10998
-      #   title: "RepoFusion: Training Code Models to Understand Your Repository"
   - number: 22
     title: 
     theme: Adaptability
@@ -320,17 +305,6 @@ schedule:
         title: "PAL: Program-aided language models"
       - url: https://viper.cs.columbia.edu
         title: "ViperGPT: Visual Inference via Python Execution for Reasoning"
-  # - number: 22
-  #   title: Planning and control
-  #   theme: Reasoning with code
-  #   kind: Discussion
-  #   date: 2024-04-27T15:30
-  #   links:
-  #     - url: /static_files/19.pdf
-  #       name: slides 
-  #   main:
-  #     - url: https://arxiv.org
-  #       title: "TBD"
   - number: 24
     title: Introduction to neural theorem proving
     theme: Neural theorem proving
@@ -384,7 +358,7 @@ schedule:
       - url: https://arxiv.org/abs/2310.00656
         title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
   - number: 28
-    title: "Guest speaker (TBD): Scaling language models for formal verification"
+    title: "Guest speaker (TBD): Scaling language models for formal code"
     theme: Guest speaker
     kind: Guest speaker
     date: 2024-04-18T15:30
