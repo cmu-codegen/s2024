@@ -256,7 +256,7 @@ schedule:
       - url: https://arxiv.org/abs/2306.04556
         title: "StudentEval: A Benchmark of Student-Written Prompts for Large Language Models of Code, Arxiv 2023"
   - number: 19
-    title: Can we rely on the outputs?
+    title: Dealing with Uncertainty
     theme: Human interaction
     kind: Discussion
     date: 2024-03-19T15:30
@@ -264,10 +264,10 @@ schedule:
       - url: /static_files/14.pdf
         name: slides 
     suggested:
-      - url: https://arxiv.org/abs/2208.06213
-        title: "What is it like to program with AI?, PPIG 2022"
-      - url: https://arxiv.org/abs/2306.04556
-        title: "StudentEval: A Benchmark of Student-Written Prompts for Large Language Models of Code, Arxiv 2023"
+      - url: https://arxiv.org/abs/2303.00732
+        title: "R-U-SURE? Uncertainty-Aware Code Suggestions by Maximizing Utility across Random User Intents"
+      - url: https://arxiv.org/abs/2205.12422
+        title: "Non-Programmers Can Label Programs Indirectly via Active Examples: A Case Study with Text-to-SQL"
   - number: 20
     title: "Speaker (TBD)"
     theme: Human interaction
