@@ -1,23 +1,25 @@
 ### Local development
 
-Tested with `rbenv`, Ruby version `2.7.6`.
+Tested with `rbenv`, Ruby version `3.1.3`.
 - ```bash
+  brew install rbenv ruby-build
   rbenv init
   eval "$(rbenv init - zsh)"
-  rbenv shell 2.7.6
+  rbenv install 3.1.3
+  rbenv shell 3.1.3
   ```
 
 - [Install Jekyll](https://jekyllrb.com/).
+  ```bash
+  gem install bundler jekyll
+  bundle install
+  ```
 
-- In `_config.yml`, set:
+- Then
   ```
-  baseurl: "" 
-  url: "http://localhost" 
+  bundle exec jekyll serve
   ```
-Then:
-```
-bundle exec jekyll serve
-```
+  ==> [http://127.0.0.1:4000/s2024/](http://127.0.0.1:4000/s2024/)
 
 ### Important Files
 - `_data/course_info.yml`
