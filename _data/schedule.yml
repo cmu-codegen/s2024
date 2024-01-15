@@ -361,15 +361,15 @@ schedule:
         title: "Funsearch: Mathematical discoveries from program search with large
 language models"
   - number: 28
-    title: "Guest speaker (TBD): Scaling language models for formal code"
-    theme: Guest speaker
+    title: "Guest lecture by <a href=https://zhangir-azerbayev.github.io/>Zhangir Azerbayev</a>"
+    theme: LLMs and formal code
     kind: Guest speaker
     date: 2024-04-18T15:30
     links:
       - url: /static_files/22.pdf
         name: slides 
     main:
-      - url: https://arxiv.org
+      - url: https://zhangir-azerbayev.github.io/
         title: "TBD"
 
   - number: 29
