@@ -13,7 +13,7 @@ schedule:
         title: Evaluating Large Language Models Trained on Code
   
   - number: 2
-    title: "Foundations: maximum likelihood, scaling laws"
+    title: "Foundations: pretraining, scaling laws"
     theme: Learning 
     kind: Lecture (Sean)
     date: 2024-01-18T15:30
@@ -28,8 +28,6 @@ schedule:
         title: "Training Compute-Optimal Large Language Models"
       - url: https://arxiv.org/abs/2305.16264
         title: "Scaling Data-Constrained Language Models"
-      - url: https://arxiv.org/abs/2305.02309
-        title: "Lessons for Training LLMs on Programming and Natural Languages"
 
   - number: 3
     title: "Scaling laws for code"
@@ -43,8 +41,10 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2102.01293 
         title: "Scaling Laws for Transfer"
-      - url: https://arxiv.org/abs/2102.01293 
-        title: "Scaling Laws for Generative Mixed-Modal Language Models"
+      - url: https://arxiv.org/abs/2401.02954
+        title: "DeepSeek LLM (Section 3: Scaling Laws)"
+      # - url: https://arxiv.org/abs/2102.01293 
+      #   title: "Scaling Laws for Generative Mixed-Modal Language Models"
     suggested:
       - url: https://www.youtube.com/watch?v=Suhp3OLASSo
         title: "(Talk) Scaling Laws and AI for Code"
@@ -306,8 +306,8 @@ schedule:
       - url: https://viper.cs.columbia.edu
         title: "ViperGPT: Visual Inference via Python Execution for Reasoning"
   - number: 24
-    title: Introduction to neural theorem proving
-    theme: Neural theorem proving
+    title: Neural theorem proving
+    theme: Formal verification
     kind: Lecture (Sean)
     date: 2024-04-04T15:30
     links:
@@ -323,16 +323,20 @@ schedule:
       - url: https://github.com/PatrickMassot/GlimpseOfLean
         title: "A Glimpse of Lean"
   - number: 25
-    title: Iterative improvement
-    theme: Neural theorem proving
+    title: Verified code synthesis
+    theme: Formal verification
     kind: Discussion
     date: 2024-04-09T15:30
     links:
       - url: /static_files/21.pdf
         name: slides 
     main:
-      - url: https://openreview.net/pdf?id=-P7G-8dmSh4
-        title: "Formal Mathematics Statement Curriculum Learning"
+      - url: https://arxiv.org/abs/2310.17807
+        title: "Clover: Closed-Loop Verifiable Code Generation"
+      # - url: https://arxiv.org/abs/2310.00656
+        # title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
+      # - url: https://openreview.net/pdf?id=-P7G-8dmSh4
+      #   title: "Formal Mathematics Statement Curriculum Learning"
   - number: 26
     title: Spring carnival (No class)
     theme: Spring carnival (No class)
@@ -345,18 +349,17 @@ schedule:
       - url: https://arxiv.org
         title: "N/A"
   - number: 27
-    title: Agents, library learning
-    theme: Neural theorem proving
+    title: Discovery algorithms
+    theme: AI for science
     kind: Discussion
     date: 2024-04-16T15:30
     links:
       - url: /static_files/21.pdf
         name: slides 
     main:
-      - url: https://arxiv.org/abs/2310.04353
-        title: "A Language-Agent Approach to Formal Theorem-Proving"
-      - url: https://arxiv.org/abs/2310.00656
-        title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
+      - url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/Mathematical-discoveries-from-program-search-with-large-language-models.pdf
+        title: "Funsearch: Mathematical discoveries from program search with large
+language models"
   - number: 28
     title: "Guest speaker (TBD): Scaling language models for formal code"
     theme: Guest speaker
