@@ -28,6 +28,8 @@ schedule:
         title: "Training Compute-Optimal Large Language Models"
       - url: https://arxiv.org/abs/2305.16264
         title: "Scaling Data-Constrained Language Models"
+      - url: https://arxiv.org/abs/2102.01293 
+        title: "Scaling Laws for Transfer"
 
   - number: 4
     title: Code pretraining objectives
