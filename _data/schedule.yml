@@ -312,8 +312,10 @@ schedule:
       - url: /static_files/18.pdf
         name: slides 
     main:
-      - url: https://arxiv.org/abs/2211.10435
-        title: "PAL: Program-aided language models"
+      - url: 
+        title: 
+      - url: https://arxiv.org/abs/2209.07753
+        title: "Code as Policies: Language Model Programs for Embodied Control"
       - url: https://viper.cs.columbia.edu
         title: "ViperGPT: Visual Inference via Python Execution for Reasoning"
 
@@ -332,8 +334,8 @@ schedule:
         title: "Generative Language Modeling for Automated Theorem Proving"
       - url: https://arxiv.org/abs/2210.12283
         title: "Draft, Sketch, and Prove"
-      - url: https://github.com/PatrickMassot/GlimpseOfLean
-        title: "A Glimpse of Lean"
+      - url: https://arxiv.org/abs/2310.00656
+        title: "Lego-Prover"
   - number: 25
     title: Verified code synthesis
     theme: Formal verification
