@@ -43,6 +43,8 @@ schedule:
       - url: /static_files/3.pdf
         name: slides
     main:
+      - url: https://arxiv.org/abs/2108.07732
+        title: "Evaluating Large Language Models Trained on Code"
       - url: https://arxiv.org/abs/2204.05999
         title: "InCoder: A Generative Model for Code Infilling and Synthesis"
       - url: https://arxiv.org/abs/2207.14255
