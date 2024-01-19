@@ -11,7 +11,7 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2108.07732
         title: Evaluating Large Language Models Trained on Code
-    slides: "/static_files/codegen_s2024_1_overview.pdf"
+    slides: "/s2024/static_files/codegen_s2024_1_overview.pdf"
   
   - number: 2
     title: "Foundations: pretraining, scaling laws"
@@ -31,7 +31,7 @@ schedule:
         title: "Scaling Data-Constrained Language Models"
       - url: https://arxiv.org/abs/2102.01293 
         title: "Scaling Laws for Transfer"
-    slides: "/static_files/codegen_s2024_2_scalinglaws.pdf"
+    slides: "/s2024/static_files/codegen_s2024_2_scalinglaws.pdf"
 
 
   - number: 4
