@@ -140,6 +140,9 @@ layout: default
         <div class="col col-2" data-label="Description">
             <strong>{{ event.theme }}</strong><br>
             {{ event.title }}
+            {% if event.slides %}
+            <br><a href="static_files/codegen_s2024_1_overview.pdf">[slides]</a>
+            {% endif %}
         </div>
         <div class="col col-3 markdown-content">
         
@@ -164,6 +167,7 @@ layout: default
             </ul>
             {% endif %}
 
+            
         </div>
     </li>
     {% endfor %}
