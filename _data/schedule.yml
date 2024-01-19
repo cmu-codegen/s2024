@@ -31,7 +31,7 @@ schedule:
         title: "Scaling Data-Constrained Language Models"
       - url: https://arxiv.org/abs/2102.01293 
         title: "Scaling Laws for Transfer"
-    slides: "/static_files/codegen_s2024_2_overview.pdf"
+    slides: "/static_files/codegen_s2024_2_scalinglaws.pdf"
 
 
   - number: 4
