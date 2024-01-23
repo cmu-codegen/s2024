@@ -241,6 +241,8 @@ schedule:
         title: "What is it like to program with AI?, PPIG 2022"
       - url: https://arxiv.org/abs/2306.04556
         title: "StudentEval: A Benchmark of Student-Written Prompts for Large Language Models of Code, Arxiv 2023"
+      - url: https://www.khoury.northeastern.edu/~arjunguha/main/papers/2024-charlie.html
+        title: "How Beginning Programmers and Code LLMs (Mis)read Each Other"
 
   - number: 18
     title: Dealing with Uncertainty
