@@ -34,7 +34,7 @@ schedule:
     slides: "/s2024/static_files/codegen_s2024_2_scalinglaws.pdf"
 
 
-  - number: 4
+  - number: 3
     title: Code pretraining objectives
     theme: Learning
     kind: Lecture (Daniel)
@@ -51,6 +51,7 @@ schedule:
         title: "Efficient Training of Language Models to Fill in the Middle"
       - url: https://arxiv.org/abs/2305.07922
         title: "CodeT5+: Open Code Large Language Models for Code Understanding and Generation"
+    slides: "/s2024/static_files/codegen_s2024_3_pretraining.pdf"
 
   - number: 4
     title: Finetuning for code
