@@ -75,8 +75,10 @@ schedule:
       - url: /static_files/5.pdf
         name: slides 
     main:
-      - url: ""
+      - url: "https://arxiv.org/abs/2301.13816"
         title: "Execution-based Code Generation using Deep Reinforcement Learning"
+      - url: https://arxiv.org/abs/2207.10397
+        title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
       - url: "https://arxiv.org/abs/2303.16749"
         title: "Improving Code Generation by Training with Natural Language Feedback"
 
