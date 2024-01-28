@@ -80,8 +80,8 @@ schedule:
         title: "Execution-based Code Generation using Deep Reinforcement Learning"
       - url: https://arxiv.org/abs/2207.10397
         title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
-      - url: "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
-        title: "https://arxiv.org/abs/2312.06585"
+      - url: "https://arxiv.org/abs/2312.06585"
+        title: "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
       - url: "https://arxiv.org/abs/2303.16749"
         title: "Improving Code Generation by Training with Natural Language Feedback"
 
@@ -328,8 +328,6 @@ schedule:
       - url: /static_files/18.pdf
         name: slides 
     main:
-      - url: 
-        title: 
       - url: https://arxiv.org/abs/2209.07753
         title: "Code as Policies: Language Model Programs for Embodied Control"
       - url: https://viper.cs.columbia.edu
