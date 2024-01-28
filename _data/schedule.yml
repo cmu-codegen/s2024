@@ -118,7 +118,7 @@ schedule:
   - number: 8
     title: Data
     theme: Data
-    kind: Lecture (Daniel, Sean)
+    kind: Lecture (Daniel)
     date: 2024-02-08T15:30
     links:
       - url: /static_files/9.pdf
@@ -203,7 +203,7 @@ schedule:
   - number: 14
     title: Pragmatic aspects of code generation
     theme: Human interaction
-    kind: Lecture (Daniel)
+    kind: Lecture (Sean)
     date: 2024-02-29T15:30
     links:
       - url: /static_files/13.pdf
