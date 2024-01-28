@@ -79,6 +79,8 @@ schedule:
         title: "Execution-based Code Generation using Deep Reinforcement Learning"
       - url: https://arxiv.org/abs/2207.10397
         title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
+      - url: "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
+        title: "https://arxiv.org/abs/2312.06585"
       - url: "https://arxiv.org/abs/2303.16749"
         title: "Improving Code Generation by Training with Natural Language Feedback"
 
@@ -125,7 +127,7 @@ schedule:
         title: "Llemma: An Open Language Model For Mathematics"
 
   - number: 9
-    title: Data
+    title: Synthetic data
     theme: Data 
     kind: Discussion
     date: 2024-02-13T15:30
@@ -133,8 +135,12 @@ schedule:
       - url: /static_files/9.pdf
         name: slides
     main:
-      - url: https://arxiv.org
-        title: "TBD"
+      - url: https://arxiv.org/abs/2207.14502
+        title: "Language Models Can Teach Themselves to Program Better"
+      - url: https://arxiv.org/abs/2306.11644
+        title: "Textbooks Are All You Need"
+      - url: https://openreview.net/forum?id=maRYffiUpI
+        title: "Improving Code Style for Accurate Code Generation"
 
   - number: 10
     title: Inference-time algorithms for code
