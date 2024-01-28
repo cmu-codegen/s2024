@@ -110,8 +110,10 @@ schedule:
       - url: /static_files/11.pdf
         name: slides
     main:
-      - url: https://arxiv.org
-        title: "TBD"
+      - url: https://arxiv.org/abs/2305.18584
+        title: "CoEditor: Leveraging Contextual Changes for Multi-Round Code Auto-Editing"
+      - url: https://arxiv.org/abs/2310.06770
+        title: "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
 
   - number: 8
     title: Data
