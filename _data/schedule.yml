@@ -84,6 +84,7 @@ schedule:
         title: "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
       - url: "https://arxiv.org/abs/2303.16749"
         title: "Improving Code Generation by Training with Natural Language Feedback"
+    slides: "/s2024/static_files/codegen_s2024_5_feedback.pdf"
 
   - number: 6
     title: Evaluation metrics and benchmarks
