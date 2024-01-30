@@ -202,8 +202,8 @@ schedule:
         title: "N/A"
 
   - number: 13
-    title: "Speaker (TBD)"
-    theme: Guest speaker
+    title: "Guest lecture by <a href=https://clairelegoues.com/>Claire Le Goues</a>"
+    theme: Software engineering
     kind: Guest speaker
     date: 2024-02-27T15:30
     links:
