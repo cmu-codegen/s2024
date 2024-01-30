@@ -186,6 +186,8 @@ schedule:
         title: "Teaching Large Language Models to Self-Debug"
       - url: https://arxiv.org/abs/2207.10397
         title: "CodeT: Code Generation with Generated Tests"
+      - url: https://arxiv.org/abs/2306.14898
+        title: "InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback"
 
   - number: 12
     title: Project hours I
