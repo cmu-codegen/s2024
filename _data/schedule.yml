@@ -91,9 +91,6 @@ schedule:
     theme: Evaluation
     kind: Lecture  (Daniel)
     date: 2024-02-01T15:30
-    links:
-      - url: /static_files/10.pdf
-        name: slides 
     main:
       - url: https://arxiv.org/pdf/2107.03374.pdf
         title: "Evaluating Large Language Models Trained on Code"
@@ -112,6 +109,7 @@ schedule:
         title: "CodeBERTScore: Evaluating Code Generation with Pretrained Models of Code"
       - url: https://arxiv.org/abs/2210.16494
         title: "Aligning Offline Metrics and Human Judgments of Value for Code Generation Models"
+    slides: "/s2024/static_files/codegen_s2024_6_evaluation.pdf"
 
   - number: 7
     title: New frontiers in benchmarking
