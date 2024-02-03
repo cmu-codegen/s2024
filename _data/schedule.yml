@@ -136,6 +136,8 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2211.15533
         title: "The Stack: 3 TB of permissively licensed source code"
+      - url: https://arxiv.org/abs/2305.06161
+        title: "StarCoder: May the source be with you"
       - url: https://arxiv.org/abs/2310.10631
         title: "Llemma: An Open Language Model For Mathematics"
 
