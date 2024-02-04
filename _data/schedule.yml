@@ -140,6 +140,9 @@ schedule:
         title: "StarCoder: May the source be with you"
       - url: https://arxiv.org/abs/2310.10631
         title: "Llemma: An Open Language Model For Mathematics"
+    suggested:
+      - url: https://arxiv.org/abs/2401.14196
+        title: "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence"
 
   - number: 9
     title: Synthetic data
