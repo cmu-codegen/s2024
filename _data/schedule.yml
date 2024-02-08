@@ -143,6 +143,7 @@ schedule:
     suggested:
       - url: https://arxiv.org/abs/2401.14196
         title: "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence"
+    slides: "/s2024/static_files/codegen_s2024_8_data.pdf"
 
   - number: 9
     title: Synthetic data
