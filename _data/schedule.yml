@@ -169,11 +169,14 @@ schedule:
     links:
       - url: /static_files/10.pdf
         name: slides
-    suggested:
+    main:
       - url: https://arxiv.org/abs/2203.07814
         title: "AlphaCode"
       - url: https://arxiv.org/abs/2204.11454
         title: "Natural Language to Code Translation with Execution"
+      - url: https://arxiv.org/abs/2207.10397
+        title: "CodeT: Code Generation with Generated Tests"
+    suggested:
       - url: https://arxiv.org/abs/2207.10397
         title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
 
@@ -189,10 +192,10 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2304.05128
         title: "Teaching Large Language Models to Self-Debug"
-      - url: https://arxiv.org/abs/2207.10397
-        title: "CodeT: Code Generation with Generated Tests"
       - url: https://arxiv.org/abs/2306.14898
         title: "InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback"
+      - url: https://arxiv.org/abs/2306.09896
+        title: "Is Self-Repair a Silver Bullet for Code Generation?"
 
   - number: 12
     title: Project hours I
