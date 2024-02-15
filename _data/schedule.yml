@@ -179,6 +179,7 @@ schedule:
     suggested:
       - url: https://arxiv.org/abs/2207.10397
         title: "LEVER: Learning to Verify Language-to-Code Generation with Execution"
+    slides: "/s2024/static_files/codegen_s2024_10_inference.pdf"
 
   - number: 11
     title: Inference-time algorithms for code 
