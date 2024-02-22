@@ -219,8 +219,8 @@ schedule:
       - url: /static_files/12.pdf
         name: slides 
     main:
-      - url: https://arxiv.org
-        title: "TBD"
+      - url: https://dl.acm.org/doi/10.1145/3318162
+        title: "Automated Program Repair"
 
   - number: 14
     title: Pragmatic aspects of code generation
