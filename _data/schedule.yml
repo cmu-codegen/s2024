@@ -238,6 +238,7 @@ schedule:
     suggested:
       - url: https://people.inf.ethz.ch/suz/publications/natural.pdf
         title: "On the Naturalness of Software. ICSE 2012"
+    slides: "/s2024/static_files/codegen_s2024_14_interaction.pdf"
 
   - number: 15
     title: Spring break
@@ -297,7 +298,7 @@ schedule:
     kind: Lecture (Sean)
     date: 2024-03-19T15:30
     links:
-      - url: /static_files/16.pdf
+      - url: "/s2024/static_files/codegen_s2024_19_inference.pdf"
         name: slides
     main:
       - url: https://arxiv.org/abs/2112.05682
@@ -317,6 +318,8 @@ schedule:
         title: "ACL 2023 Tutorial: Retrieval-based Language Models and Applications"
       - url: https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
         title: "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context"
+      slides: "/s2024/static_files/codegen_s2024_19_inference.pdf"
+
 
   - number: 20
     title: "Guest lecture by <a href=https://www.cs.cmu.edu/~sherryw/>Sherry Wu</a>"
