@@ -401,6 +401,8 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2310.17807
         title: "Clover: Closed-Loop Verifiable Code Generation"
+      - url: https://arxiv.org/abs/2311.03739
+        title: "Leveraging Large Language Models for Automated Proof Synthesis in Rust"
       # - url: https://arxiv.org/abs/2310.00656
         # title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
       # - url: https://openreview.net/pdf?id=-P7G-8dmSh4
