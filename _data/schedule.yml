@@ -238,6 +238,7 @@ schedule:
     suggested:
       - url: https://people.inf.ethz.ch/suz/publications/natural.pdf
         title: "On the Naturalness of Software. ICSE 2012"
+    slides: "/s2024/static_files/codegen_s2024_14_interaction.pdf"
 
   - number: 15
     title: Spring break
@@ -297,15 +298,28 @@ schedule:
     kind: Lecture (Sean)
     date: 2024-03-19T15:30
     links:
-      - url: /static_files/16.pdf
+      - url: /static_files/14.pdf
         name: slides
-    suggested:
+    main:
+      - url: https://arxiv.org/abs/2112.05682
+        title: "Self-attention Does Not Need O(n2) Memory"
       - url: https://arxiv.org/abs/2309.16039
         title: "Effective Long-Context Scaling of Foundation Models"
       - url: https://arxiv.org/abs/2207.05987
         title: "DocPrompting: Generating Code by Retrieving the Docs"
+    suggested:
+      - url: https://arxiv.org/abs/2205.14135
+        title: "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+      - url: https://arxiv.org/abs/2310.01889
+        title: "Ring Attention with Blockwise Transformers for Near-Infinite Context"
       - url: https://arxiv.org/abs/2206.12839
         title: "Repository-Level Prompt Generation for Large Language Models of Code"
+      - url: https://acl2023-retrieval-lm.github.io/ 
+        title: "ACL 2023 Tutorial: Retrieval-based Language Models and Applications"
+      - url: https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
+        title: "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context"
+    slides: "/s2024/static_files/codegen_s2024_19_long_context.pdf"
+
 
   - number: 20
     title: "Guest lecture by <a href=https://www.cs.cmu.edu/~sherryw/>Sherry Wu</a>"
@@ -334,6 +348,11 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2310.11248
         title: "CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion"
+      - url: https://arxiv.org/abs/2402.12317 
+        title: "ARKS: Active Retrieval in Knowledge Soup for Code Generation"
+    suggested:
+      - url: https://arxiv.org/abs/2403.10059 
+        title: "Repoformer: Selective Retrieval for Repository-Level Code Completion"
 
   - number: 22
     title: Project Hours 2
@@ -389,6 +408,8 @@ schedule:
     main:
       - url: https://arxiv.org/abs/2310.17807
         title: "Clover: Closed-Loop Verifiable Code Generation"
+      - url: https://arxiv.org/abs/2311.03739
+        title: "Leveraging Large Language Models for Automated Proof Synthesis in Rust"
       # - url: https://arxiv.org/abs/2310.00656
         # title: "Lego-Prover: Neural Theorem Proving with Growing Libraries"
       # - url: https://openreview.net/pdf?id=-P7G-8dmSh4
