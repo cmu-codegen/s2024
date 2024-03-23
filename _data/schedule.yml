@@ -336,6 +336,7 @@ schedule:
         title: "Is AI the better programming partner? Human-Human Pair Programming vs. Human-AI pAIr Programming"
       - url: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/0449374e831a796a5e88f92380c64e7e090c6dfa.pdf
         title: "Resolving Code Review Comments with Machine Learning"
+    slides: "/s2024/static_files/codegen_s2024_20_wu_interaction.pdf"
 
   - number: 21
     title: 
