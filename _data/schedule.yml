@@ -330,8 +330,13 @@ schedule:
       - url: /static_files/15.pdf
         name: slides 
     main:
-      - url: https://www.cs.cmu.edu/~sherryw/
-        title: "TBD"
+      - url: https://arxiv.org/abs/2210.14306
+        title: "Reading between the lines: Modeling user behavior and costs in AI-assisted programming"
+      - url: https://arxiv.org/abs/2306.05153
+        title: "Is AI the better programming partner? Human-Human Pair Programming vs. Human-AI pAIr Programming"
+      - url: https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/0449374e831a796a5e88f92380c64e7e090c6dfa.pdf
+        title: "Resolving Code Review Comments with Machine Learning"
+    slides: "/s2024/static_files/codegen_s2024_20_wu_interaction.pdf"
 
   - number: 21
     title: 
