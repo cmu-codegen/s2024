@@ -398,6 +398,8 @@ schedule:
         title: "Draft, Sketch, and Prove"
       - url: https://arxiv.org/abs/2310.00656
         title: "Lego-Prover"
+    slides: "/s2024/static_files/codegen_s2024_24_theorem_proving.pdf"
+
   - number: 25
     title: Verified code synthesis
     theme: Formal verification
